@@ -1,0 +1,14 @@
+torch>=2.4.0
+tensorboard
+transformers>=4.51.3
+datasets==3.3.2
+accelerate==1.4.0
+evaluate==0.4.3
+bitsandbytes==0.45.3
+trl==0.15.2
+peft==0.14.0
+protobuf
+sentencepiece
+
+# Optional: Uncomment the line below if using a GPU with BF16 and Flash Attention support (e.g., NVIDIA L4, A100)
+# flash-attn
